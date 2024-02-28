@@ -40,7 +40,8 @@ or
 
 ## Usage
 
-For ChatGPT-Lite code examples, go here: https://github.com/DarrenSem/chatgpt-lite/examples.
+For ChatGPT-Lite code examples, go here:
+[https://github.com/DarrenSem/chatgpt-lite/examples](https://github.com/DarrenSem/chatgpt-lite/tree/master/examples).
 
 If you wish to expand the core functionality (to add function calls, process streaming, etc.), update/add code to match the OpenAI API signatures -- refer to their official [API Reference](https://platform.openai.com/docs/api-reference) and [Documentation](https://platform.openai.com/docs).
 
