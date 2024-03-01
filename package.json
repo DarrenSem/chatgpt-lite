@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-lite",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "ChatGPT-Lite is a minimal standalone JS wrapper for the OpenAI REST API. No fluff, no filler; so tiny that you can use it inside a Bookmarklet.",
   "main": "index.js",
   "private": false,
