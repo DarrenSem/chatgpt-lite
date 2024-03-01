@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/chatgpt-lite.svg)](https://npmjs.org/package/chatgpt-lite)
 
-ChatGPT-Lite is a minimal standalone JS wrapper for the OpenAI REST API.
+[ChatGPT-Lite](https://github.com/DarrenSem/chatgpt-lite) is a minimal standalone JS wrapper for the OpenAI REST API.
 
 It provides dependency-free access to common OpenAI REST API calls, from Node or Web.
 
@@ -17,7 +17,8 @@ This is not trying to be a complete replacement for OpenAI's official library, w
 npm install chatgpt-lite
 ```
 ```javascript
-const OpenAI = require("chatgpt-lite");
+import OpenAI from "chatgpt-lite"; // ESM.mjs
+// const OpenAI = require("chatgpt-lite"); // CJS.js
 
 const openai = OpenAI({ apiKey: ... });
 ```
@@ -25,14 +26,15 @@ const openai = OpenAI({ apiKey: ... });
 ### Web via CDN:
 ```html
 <script type="module">
-  import OpenAI from "https://unpkg.com/browse/chatgpt-lite/index.mjs"
+  import OpenAI from "https://unpkg.com/chatgpt-lite/index.mjs";
+  // import OpenAI from "https://cdn.skypack.dev/chatgpt-lite";
 
   const openai = OpenAI({ apiKey: ... });
 </script>
 ```
 or
 ```html
-<script src="https://unpkg.com/browse/chatgpt-lite/index.js"></script>
+<script src="https://unpkg.com/chatgpt-lite/index.js"></script>
 <script>
   const openai = OpenAI({ apiKey: ... });
 </script>
@@ -40,8 +42,7 @@ or
 
 ## Usage
 
-For ChatGPT-Lite code examples, go here:
-[https://github.com/DarrenSem/chatgpt-lite/examples](https://github.com/DarrenSem/chatgpt-lite/tree/master/examples).
+You can browse the ChatGPT-Lite [code examples](https://github.com/DarrenSem/chatgpt-lite/tree/master/examples).
 
 If you wish to expand the core functionality (to add function calls, process streaming, etc.), update/add code to match the OpenAI API signatures -- refer to their official [API Reference](https://platform.openai.com/docs/api-reference) and [Documentation](https://platform.openai.com/docs).
 
