@@ -20,7 +20,7 @@ npm install chatgpt-lite
 import OpenAI from "chatgpt-lite"; // ESM.mjs
 // const OpenAI = require("chatgpt-lite"); // CJS.js
 
-const openai = OpenAI({ apiKey: ... });
+const openai = OpenAI({ apiKey: "api_key" });
 ```
 
 ### Web via CDN:
@@ -29,14 +29,14 @@ const openai = OpenAI({ apiKey: ... });
   import OpenAI from "https://unpkg.com/chatgpt-lite/index.mjs";
   // import OpenAI from "https://cdn.skypack.dev/chatgpt-lite";
 
-  const openai = OpenAI({ apiKey: ... });
+  const openai = OpenAI({ apiKey: "api_key" });
 </script>
 ```
 or
 ```html
 <script src="https://unpkg.com/chatgpt-lite/index.js"></script>
 <script>
-  const openai = OpenAI({ apiKey: ... });
+  const openai = OpenAI({ apiKey: "api_key" });
 </script>
 ```
 
